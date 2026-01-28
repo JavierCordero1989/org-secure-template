@@ -184,7 +184,19 @@ El objetivo es orientar al desarrollador antes de completar el Pull Request.
 
 ---
 
-## 13. Principio Final
+## 13. Guardrails obligatorios
+
+Copilot **NUNCA DEBE**:
+
+- Generar credenciales
+- Generar datos reales de clientes
+- Usar algoritmos inseguros (MD5, SHA1, ECB)
+- Omitir validación de entradas
+- Desactivar controles de seguridad
+
+---
+
+## 14. Principio Final
 Ante duda:
 - Priorizar seguridad sobre conveniencia.
 - Priorizar cumplimiento sobre velocidad.
