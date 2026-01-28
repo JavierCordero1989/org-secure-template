@@ -174,7 +174,7 @@ Los mensajes de commit son OBLIGATORIOS y deben seguir el estándar
 
 ### Formato obligatorio
 
-<type>(<scope>): <descripción corta>
+`<type>(<scope>): <descripción corta>`
 
 Ejemplo:
 - feat(auth): agregar validación de token JWT
