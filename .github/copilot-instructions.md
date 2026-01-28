@@ -166,60 +166,7 @@ Alineado a:
 
 ---
 
-## 12. Estándar de Mensajes de Commit
-(Alineado a Conventional Commits, ISO 27001, COBIT)
-
-Los mensajes de commit son OBLIGATORIOS y deben seguir el estándar
-**Conventional Commits** para asegurar trazabilidad, auditoría y automatización.
-
-### Formato obligatorio
-
-`<type>(<scope>): <descripción corta>`
-
-Ejemplo:
-- feat(auth): agregar validación de token JWT
-- fix(api): corregir validación de entrada nula
-- chore(ci): actualizar pipeline de análisis estático
-
-### Tipos permitidos
-- feat: nueva funcionalidad
-- fix: corrección de defecto
-- refactor: cambio interno sin impacto funcional
-- perf: mejora de rendimiento
-- test: pruebas
-- docs: documentación
-- chore: tareas técnicas
-- ci: cambios en integración continua
-- build: cambios de build o dependencias
-- revert: reversión de cambios
-
-### Reglas obligatorias
-- Usar tiempo presente (“agregar”, no “agregado”).
-- Descripción clara y concisa.
-- No exceder 72 caracteres en la línea principal.
-- No usar mensajes genéricos:
-  - ❌ "fix"
-  - ❌ "changes"
-  - ❌ "update"
-- Incluir scope cuando aplique (módulo, componente, servicio).
-
-### Cambios críticos
-Para cambios que rompen compatibilidad:
-
-BREAKING CHANGE: descripción del impacto
-
-### Seguridad
-- Commits relacionados con seguridad deben indicarlo explícitamente:
-  - fix(security): corregir validación de permisos
-  - feat(auth): fortalecer autenticación
-
-### Restricciones
-- No incluir datos sensibles en mensajes de commit.
-- No incluir secretos, claves, usuarios o datos productivos.
-
----
-
-## 13. Revisión Asistida de Pull Requests
+## 12. Revisión Asistida de Pull Requests
 
 Cuando se solicite ayuda para revisar un Pull Request, debes:
 
@@ -237,7 +184,7 @@ El objetivo es orientar al desarrollador antes de completar el Pull Request.
 
 ---
 
-## 14. Principio Final
+## 13. Principio Final
 Ante duda:
 - Priorizar seguridad sobre conveniencia.
 - Priorizar cumplimiento sobre velocidad.
