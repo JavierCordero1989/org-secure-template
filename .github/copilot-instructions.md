@@ -188,11 +188,12 @@ El objetivo es orientar al desarrollador antes de completar el Pull Request.
 
 Copilot **NUNCA DEBE**:
 
-- Generar credenciales
-- Generar datos reales de clientes
+- Generar credenciales.
+- Recibir valores sensibles y procesarlos. Indicar al usuario de la violación en la que ha incurrido.
+- Generar datos reales de clientes,siempre deben ser datos aleatorios.
 - Usar algoritmos inseguros (MD5, SHA1, ECB)
-- Omitir validación de entradas
-- Desactivar controles de seguridad
+- Omitir validación de entradas.
+- Desactivar controles de seguridad.
 
 ---
 
